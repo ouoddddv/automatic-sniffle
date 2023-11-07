@@ -1,0 +1,11 @@
+menu = ["雞肉", "吳郭魚", "青江菜", "花生", "洋蔥", "胡蘿蔔"]
+skip_food = ["胡蘿蔔", "吳郭魚"]
+
+dinner = []
+
+for d in menu:
+    if d in skip_food:
+        continue
+    dinner.append(d)
+
+print(dinner)
